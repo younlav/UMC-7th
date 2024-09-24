@@ -43,6 +43,21 @@
       border: 0;
       font-size: medium;
     }
+    
+    @media (max-width: 600px) { /* 창 너비가 600px 이하일 때 */
+    .logo p {
+        display: none; /* 로고의 p 태그 숨김 */
+    }
+
+    nav {
+        justify-content: center; /* 버튼들을 중앙 정렬 */
+        width: 100%; /* nav의 너비를 100%로 설정 */
+    }
+
+    button {
+        margin: 0 10px; /* 버튼 사이에 여백 추가 */
+    }
+    
   </style>
 </head>
 
