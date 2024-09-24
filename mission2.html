@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mission2</title>
+    <style>
+        * {
+            margin : 0;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            color : white;
+            font-size: 3vh;
+            font-weight: bold;
+        }
+
+        .container1 {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+        }
+        .HEADER {
+            padding : 20px;
+            background-color: black;
+        }
+        .MENU {
+            padding : 20px;
+            background-color: red;
+        }
+ 
+        .container2 {
+            flex : 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .HERO {
+            background-color: rgb(89, 114, 164);
+
+        }
+        
+        .container3 {
+            flex : 1;
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+        }
+
+        .MAIN {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: navy;
+        }
+
+        .container3-1 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+        }
+        .IMAGE {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(166, 202, 198);
+            color : black;
+        }
+        .EXTRA {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            color : black;
+        }
+        .BANNER {
+            padding : 20px;
+            background-color: yellow;
+            color : black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container1">
+        <div class="HEADER">HEADER</div>
+        <div class="MENU">MENU</div>
+    </div>
+
+    <div class="container2 HERO"> HERO </div>
+
+    <div class="container3">
+        <div class="MAIN">MAIN</div>
+        <div></div>
+        <div class="container3-1">
+            <div class="IMAGE">IMAGE</div>
+            <div class="EXTRA">EXTRA</div>
+        </div>
+    </div>
+
+    <div class="container4 BANNER"> BANNER </div>
+</body>
+</html>
